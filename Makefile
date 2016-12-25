@@ -26,7 +26,7 @@ python3: python3-vars info compile3 install-tmp package move
 .PHONY: python27-vars
 python27-vars:
 	$(eval NAME=python27)
-	$(eval VERSION=2.7.12)
+	$(eval VERSION=2.7.13)
 	$(eval BINARY=python2.7)
 
 .PHONY: python3-vars
