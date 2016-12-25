@@ -1,2 +1,5 @@
+* Sun Dec 25 2016 Ryan Parman <ryan.parman@wepay.com> 2.7.13-1
+- Bundles Python 2.7.13.
+
 * Tue Jun 28 2016 Ryan Parman <ryan.parman@wepay.com> 2.7.12-1
 - Bundles Python 2.7.12.
