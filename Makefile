@@ -32,8 +32,8 @@ python27-vars:
 .PHONY: python3-vars
 python3-vars:
 	$(eval NAME=python3)
-	$(eval VERSION=3.5.2)
-	$(eval BINARY=python3.5)
+	$(eval VERSION=3.6.0)
+	$(eval BINARY=python3.6)
 
 #-------------------------------------------------------------------------------
 
