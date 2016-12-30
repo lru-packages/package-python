@@ -98,7 +98,7 @@ install-deps:
 		zlib-devel \
 		valgrind-devel \
 		tcl-devel \
-		lzma-devel \
+		lzma-sdk457-devel \
 		gdbm-devel \
 	;
 
@@ -161,6 +161,7 @@ package:
 		-v $(VERSION) \
 		-C /tmp/installdir-$(NAME)-$(VERSION) \
 		-m $(MAINTAINER) \
+		--replaces python3 \
 		--epoch $(EPOCH) \
 		--iteration $(ITERATION) \
 		--license $(LICENSE) \
@@ -187,6 +188,7 @@ package:
 		-v $(VERSION) \
 		-C /tmp/installdir-$(NAME)-$(VERSION) \
 		-m $(MAINTAINER) \
+		--replaces python3-libs \
 		--epoch $(EPOCH) \
 		--iteration $(ITERATION) \
 		--license $(LICENSE) \
@@ -215,6 +217,7 @@ package:
 		-v $(VERSION) \
 		-C /tmp/installdir-$(NAME)-$(VERSION) \
 		-m $(MAINTAINER) \
+		--replaces python3-devel \
 		--epoch 1 \
 		--iteration $(ITERATION) \
 		--license $(LICENSE) \
@@ -242,6 +245,7 @@ package:
 		-v $(VERSION) \
 		-C /tmp/installdir-$(NAME)-$(VERSION) \
 		-m $(MAINTAINER) \
+		--replaces python3-doc \
 		--epoch 1 \
 		--iteration $(ITERATION) \
 		--license $(LICENSE) \
