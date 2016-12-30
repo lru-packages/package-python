@@ -1,0 +1,2 @@
+* Tue Jun 28 2016 Ryan Parman <ryan@ryanparman.com> 3.5.2-1
+- Bundles Python 3.5.2.

@@ -11,5 +11,8 @@ Edit the `Makefile` to ensure that you are setting the intended version, then ru
 ```bash
 make install-deps
 make clean python27
-make clean python3
+make clean python33
+make clean python34
+make clean python35
+make clean python36
 ```
