@@ -1,5 +1,11 @@
+* Thu Mar 23 2017 Ryan Parman <ryan.parman@wepay.com> 3.6.1-1
+- Bundles Python 3.6.1.
+- https://docs.python.org/3.6/whatsnew/3.6.html
+
 * Mon Dec 26 2016 Ryan Parman <ryan.parman@wepay.com> 3.6.0-1
 - Bundles Python 3.6.0.
+- https://docs.python.org/3.6/whatsnew/3.6.html
 
 * Tue Jun 28 2016 Ryan Parman <ryan.parman@wepay.com> 3.5.2-1
 - Bundles Python 3.5.2.
+- https://docs.python.org/3.5/whatsnew/3.5.html
